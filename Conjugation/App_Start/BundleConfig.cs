@@ -26,6 +26,10 @@ namespace Conjugation
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/azure").Include(
+                        "~/Scripts/MobileServices.Web-1.2.5.min.js"));
+
         }
     }
 }
