@@ -9,7 +9,6 @@ using System.Web.Routing;
 
 namespace Conjugation
 {
-//dev checked out
     public class MvcApplication : System.Web.HttpApplication
     {
         protected void Application_Start()
